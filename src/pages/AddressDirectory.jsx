@@ -128,7 +128,7 @@ const DashboardApp = () => {
       ...newHomestead,
       paidTotal: 0,
       outstanding: 240,
-      created_at: new Date().toLocaleDateString()
+      created_at: new Date().toISOString()
     };
 
     try {
