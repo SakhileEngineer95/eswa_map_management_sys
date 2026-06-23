@@ -128,6 +128,7 @@ const DashboardApp = () => {
       ...newHomestead,
       paidTotal: 0,
       outstanding: 240,
+      
     };
 
     try {
@@ -150,7 +151,7 @@ const DashboardApp = () => {
     }
 
     //setHomesteads(prev => [homesteadToAdd, ...prev]);
-    fetchData();
+    fetchData()
     setShowModal(false);
   };
 
